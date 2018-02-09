@@ -12,7 +12,7 @@ import java.util.Random;
 public class CarSearchPage {
     private boolean formIsCompleted = false;
 
-    @FindBy(how = How.XPATH, using = "//*[@id='f_o_8_min11111']")
+    @FindBy(how = How.XPATH, using = "//*[@id='f_o_8_min']")
     private WebElement priceFromField;
 
     @FindBy(how=How.XPATH, using = "//*[@id='f_o_8_max']")
@@ -94,7 +94,7 @@ public class CarSearchPage {
         Select modelDropDown = new Select(model);
         modelDropDown.selectByValue(PropertiesCache.getProperty("model"));
 
-        int index = new Random().nextInt(allCheckboxes.size()-1);
+        int index = new Random().nextInt(allCheckboxes.size());
         String id = allCheckboxes.get(index).getAttribute("id");
         allCheckboxes.get(index).click();
         favorites.click();

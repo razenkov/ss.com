@@ -9,6 +9,7 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Path;
 
 public class TestListener implements ITestListener {
     private WebDriver driver;
@@ -22,10 +23,16 @@ public class TestListener implements ITestListener {
     public void onTestFailure(ITestResult iTestResult) {
         driver = ((WebDriverTestBase) iTestResult.getInstance()).driver;
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+        File f = new File("/Users/mymac/IdeaProjects/ss.com/FailedTestsScreens");
+        try {
+            FileUtils.cleanDirectory(f);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         try {
             FileUtils.copyFile(scrFile,
-                    new File("C:\\Users\\adm1n\\Documents\\KitCenter\\Screenshots"
-                            + "TestMethod: " + iTestResult.getMethod().getMethodName() + ".png"));
+                    //new File("C:/Users/adm1n/Documents/KitCenter/Screenshots"
+                      new File("FailedTestsScreens/" + iTestResult.getMethod().getMethodName() + ".png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
