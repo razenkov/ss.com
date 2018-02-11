@@ -16,6 +16,9 @@ public class HomePage {
     @FindBy(how = How.XPATH, using = "//*[@title='Искать объявления' or @title='Meklēt sludinājumus']")
     WebElement searchDirectory;
 
+    @FindBy(how = How.XPATH, using = "//*[@href='/ru/new/']")
+    WebElement newAdsLink;
+
     public void changeLanguageToRu(){
         if (languageButton.getAttribute("title").equals("По-русски")){
             languageButton.click();
@@ -36,4 +39,7 @@ public class HomePage {
         searchDirectory.click();
     }
 
+    public void getMyAdsDirectory(){
+        newAdsLink.click();
+    }
 }

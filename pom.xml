@@ -17,25 +17,37 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
-        </plugins>
-    </build>
-    <!--build>
-        <plugins>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven.surefire.plugin}</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <argLine>
+                        -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
+                    </argLine>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>src/test/resources/conf.xml</suiteXmlFile>
+                    </suiteXmlFiles>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
-    </build-->
+    </build>
 
     <properties>
+        <aspectj.version>1.8.13</aspectj.version>
+        <maven.surefire.plugin>2.20.1</maven.surefire.plugin>
         <selenium.version>3.8.1</selenium.version>
         <testng.version>6.13.1</testng.version>
         <webdrivermanager.version>2.1.0</webdrivermanager.version>
+        <allure.version>2.0-BETA21</allure.version>
     </properties>
 
     <dependencies>
@@ -43,6 +55,12 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>${selenium.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>${allure.version}</version>
         </dependency>
 
         <dependency>
@@ -57,7 +75,7 @@
             <version>${webdrivermanager.version}</version>
         </dependency>
 
-
     </dependencies>
+
 
 </project>
