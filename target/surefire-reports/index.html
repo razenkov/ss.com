@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-com.ss.SearchTest">
-              <span class="suite-name border-failed">com.ss.SearchTest</span>
+              <span class="suite-name border-passed">com.ss.SearchTest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-com.ss.SearchTest" class="hide-methods failed suite-com.ss.SearchTest"> (hide)</a> <!-- hide-methods failed suite-com.ss.SearchTest -->
-                      <a href="#" panel-name="suite-com.ss.SearchTest" class="show-methods failed suite-com.ss.SearchTest"> (show)</a> <!-- show-methods failed suite-com.ss.SearchTest -->
-                    </span>
-                    <div class="method-list-content failed suite-com.ss.SearchTest">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-com.ss.SearchTest" title="com.ss.SearchTest" hash-for-method="searchForItem">searchForItem</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-com.ss.SearchTest -->
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,6 +103,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-com.ss.SearchTest" title="com.ss.SearchTest" hash-for-method="addToFavoritesTest">addToFavoritesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-com.ss.SearchTest" title="com.ss.SearchTest" hash-for-method="searchForItem">searchForItem</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-com.ss.SearchTest -->
@@ -131,31 +122,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-com.ss.SearchTest" class="panel com.ss.SearchTest">
-          <div class="suite-com.ss.SearchTest-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.ss.SearchTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="searchForItem">
-                  </a> <!-- searchForItem -->
-                  <span class="method-name">searchForItem</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 4781
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
-System info: host: &apos;myMacs-MacBook-Pro.local&apos;, ip: &apos;fe80:0:0:0:8d3:d4bb:6c89:8439%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.12.6&apos;, java.version: &apos;1.8.0_161&apos;
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
-	at com.ss.pages.SearchPage.fillSearchForm(SearchPage.java:49)
-	at com.ss.SearchTest.searchForItem(SearchTest.java:37)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-com.ss.SearchTest-class-failed -->
           <div class="suite-com.ss.SearchTest-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -167,6 +133,13 @@ Driver info: driver.version: unknown
                   <a name="addToFavoritesTest">
                   </a> <!-- addToFavoritesTest -->
                   <span class="method-name">addToFavoritesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForItem">
+                  </a> <!-- searchForItem -->
+                  <span class="method-name">searchForItem</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -224,18 +197,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'searchForItem')
+data.setCell(0, 1, 'addToFavoritesTest')
 data.setCell(0, 2, 'com.ss.SearchTest')
-data.setCell(0, 3, 9445);
+data.setCell(0, 3, 19237);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addToFavoritesTest')
+data.setCell(1, 1, 'searchForItem')
 data.setCell(1, 2, 'com.ss.SearchTest')
-data.setCell(1, 3, 7801);
+data.setCell(1, 3, 12226);
 window.suiteTableData['com.ss.SearchTest']= { tableData: data, tableDiv: 'times-div-com.ss.SearchTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <span class="suite-total-time">Total running time: 31 seconds</span>
               <div id="times-div-com.ss.SearchTest">
               </div> <!-- times-div-com.ss.SearchTest -->
             </div> <!-- times-div -->
@@ -268,17 +241,15 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">addToFavoritesTest</span>
-                <span class="method-start">3193 ms</span>
+                <span class="method-start">3825 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">searchForItem</span>
-                <span class="method-start">10995 ms</span>
+                <span class="method-start">23140 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20849 ms</span>
+                <span class="method-start">35368 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,14 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ss.SearchTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.22 sec <<< FAILURE!
-searchForItem(com.ss.SearchTest)  Time elapsed: 9.853 sec  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: Cannot locate option with value: 4781
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'myMacs-MacBook-Pro.local', ip: 'fe80:0:0:0:8d3:d4bb:6c89:8439%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_161'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.support.ui.Select.selectByValue(Select.java:209)
-	at com.ss.pages.SearchPage.fillSearchForm(SearchPage.java:49)
-	at com.ss.SearchTest.searchForItem(SearchTest.java:37)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 46.057 sec

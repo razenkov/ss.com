@@ -1,0 +1,24 @@
+<suite name="Parallel Tests" verbose="1" thread-count="4" parallel="tests">
+	<tests>
+		<!--<test name="Windows + Chrome Test">-->
+			<!--<parameters>-->
+				<!--<parameter name="platform" value="WIN8_1" />-->
+				<!--<parameter name="remoteBrowser" value="chrome"/>-->
+			<!--</parameters>-->
+			<!--<classes>-->
+				<!--<class name="com.google.GoogleSearchTest" />-->
+			<!--</classes>-->
+		<!--</test>-->
+		<test name="Windows + FireFox Test">
+			<classes>>
+				<class name="com.ss.AddAdvertisementTests" />
+				<!--exclude name="com.ss.LoginTests" /-->
+                <class name="com.ss.LoginTests" />
+                <class name="com.ss.SearchTest" />
+			</classes>
+            <!--<packages>-->
+                <!--<package name="com.ss"></package>-->
+            <!--</packages>-->
+        </test>
+	</tests>
+</suite>
