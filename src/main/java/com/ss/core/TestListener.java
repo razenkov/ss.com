@@ -1,5 +1,6 @@
 package com.ss.core;
 
+import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -41,6 +42,7 @@ public class TestListener implements ITestListener {
         }
     }
 
+    @Attachment(value = "{0}", type = "image/png")
     public byte[] saveImageAttach(String attachName){
         try {
             File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
