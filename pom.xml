@@ -57,11 +57,11 @@
             <version>${selenium.version}</version>
         </dependency>
 
-        <!--dependency>
+        <dependency>
             <groupId>io.qameta.allure</groupId>
             <artifactId>allure-testng</artifactId>
             <version>${allure.version}</version>
-        </dependency-->
+        </dependency>
 
         <dependency>
             <groupId>org.testng</groupId>
