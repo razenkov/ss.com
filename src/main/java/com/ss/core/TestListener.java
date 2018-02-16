@@ -11,6 +11,8 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 
+import static com.google.common.io.Files.toByteArray;
+
 public class TestListener implements ITestListener {
     private WebDriver driver;
     @Override
@@ -26,6 +28,7 @@ public class TestListener implements ITestListener {
         File f = new File("/Users/mymac/IdeaProjects/ss.com/FailedTestsScreens");
         try {
             FileUtils.cleanDirectory(f);
+            saveImageAttach("FailedTestsScreens/" + iTestResult.getMethod().getMethodName() + ".png");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -35,6 +38,16 @@ public class TestListener implements ITestListener {
                       new File("FailedTestsScreens/" + iTestResult.getMethod().getMethodName() + ".png"));
         } catch (IOException e) {
             e.printStackTrace();
+        }
+    }
+
+    public byte[] saveImageAttach(String attachName){
+        try {
+            File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            return toByteArray(scrFile);
+        }catch (Exception e){
+            e.printStackTrace();
+            return new byte[0];
         }
     }
     @Override
