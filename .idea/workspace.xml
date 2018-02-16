@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aa74f3e5-086f-4eb5-9970-21e38e55a2f3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/allure-results/f7137ed9-d478-40de-a00c-2f42f1e586dc-result.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ss/core/TestListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/ss/core/TestListener.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ss.com_properties" afterPath="$PROJECT_DIR$/src/main/resources/ss.com_properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/core/PropertiesCache.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/core/TestListener.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/core/WebDriverTestBase.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/pages/CarSearchPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/pages/HomePage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/pages/LoginPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/pages/NewAdPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ss/pages/SearchPage.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/FailedTestsScreens/searchForItem.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/SearchPage.java">
+      <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="67" column="13" lean-forward="false" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+            <state relative-caret-position="75">
+              <caret line="7" column="82" lean-forward="false" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
               <folding />
             </state>
           </provider>
@@ -69,28 +60,28 @@
       <file leaf-file-name="LoginTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/LoginTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+            <state relative-caret-position="270">
+              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="300">
+              <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestListener.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/core/TestListener.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="30" column="101" lean-forward="true" selection-start-line="30" selection-start-column="101" selection-end-line="30" selection-end-column="101" />
+              <caret line="30" column="101" lean-forward="false" selection-start-line="30" selection-start-column="101" selection-end-line="30" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -99,8 +90,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="90">
+              <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -151,17 +142,17 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ss/UserRegularBehaviorTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ss/LoginTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ss/SearchForItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ss/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ss/pages/CarSearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ss/pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ss/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ss/pages/NewAdPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ss/AddAdvertisementTests.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ss/core/WebDriverTestBase.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ss.com_properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/ss/core/TestListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ss/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -641,7 +632,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1086351" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44478065" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="2547" y="941" width="2473" height="473" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22236025" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22181146" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17982924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -946,13 +937,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/NewAdPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
@@ -984,26 +968,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/LoginTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="90">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1024,6 +992,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/core/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="101" lean-forward="false" selection-start-line="30" selection-start-column="101" selection-end-line="30" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/LoginTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -1032,10 +1016,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/core/TestListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="30" column="101" lean-forward="true" selection-start-line="30" selection-start-column="101" selection-end-line="30" selection-end-column="101" />
+        <state relative-caret-position="75">
+          <caret line="7" column="82" lean-forward="false" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
