@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="com.ss.SearchTest" duration-ms="21096" started-at="2018-02-15T21:20:46Z" finished-at="2018-02-15T21:21:07Z">
+  <suite name="com.ss.SearchTest" duration-ms="21980" started-at="2018-02-16T17:13:55Z" finished-at="2018-02-16T17:14:17Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="21096" started-at="2018-02-15T21:20:46Z" finished-at="2018-02-15T21:21:07Z">
+    <test name="Command line test" duration-ms="21980" started-at="2018-02-16T17:13:55Z" finished-at="2018-02-16T17:14:17Z">
       <class name="com.ss.SearchTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.ss.SearchTest@dfd3711]" name="setup" is-config="true" duration-ms="3714" started-at="2018-02-15T23:20:46Z" finished-at="2018-02-15T23:20:49Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.ss.SearchTest@dfd3711]" name="setup" is-config="true" duration-ms="3820" started-at="2018-02-16T19:13:55Z" finished-at="2018-02-16T19:13:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addToFavoritesTest()[pri:0, instance:com.ss.SearchTest@dfd3711]" name="addToFavoritesTest" duration-ms="9395" started-at="2018-02-15T23:20:49Z" finished-at="2018-02-15T23:20:59Z">
+        <test-method status="PASS" signature="addToFavoritesTest()[pri:0, instance:com.ss.SearchTest@dfd3711]" name="addToFavoritesTest" duration-ms="8984" started-at="2018-02-16T19:13:59Z" finished-at="2018-02-16T19:14:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToFavoritesTest -->
-        <test-method status="PASS" signature="searchForItem()[pri:0, instance:com.ss.SearchTest@dfd3711]" name="searchForItem" duration-ms="7782" started-at="2018-02-15T23:20:59Z" finished-at="2018-02-15T23:21:07Z">
+        <test-method status="PASS" signature="searchForItem()[pri:0, instance:com.ss.SearchTest@dfd3711]" name="searchForItem" duration-ms="8901" started-at="2018-02-16T19:14:08Z" finished-at="2018-02-16T19:14:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForItem -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.SearchTest@dfd3711]" name="tearDown" is-config="true" duration-ms="193" started-at="2018-02-15T23:21:07Z" finished-at="2018-02-15T23:21:07Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.SearchTest@dfd3711]" name="tearDown" is-config="true" duration-ms="258" started-at="2018-02-16T19:14:17Z" finished-at="2018-02-16T19:14:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
