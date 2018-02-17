@@ -1,4 +1,4 @@
-ªª<suite name="Parallel Tests" verbose="1" thread-count="4" parallel="tests">
+<suite name="Parallel Tests" verbose="1" thread-count="4" parallel="tests">
 	<tests>
 		<!--<test name="Windows + Chrome Test">-->
 			<!--<parameters>-->

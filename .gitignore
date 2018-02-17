@@ -15,7 +15,7 @@
 .idea/**/sqlDataSources.xml
 .idea/**/dynamic.xml
 .idea/**/uiDesigner.xml
-.idea/
+.idea/*.xml
 target/
 *.iml
 # Gradle:
@@ -85,6 +85,7 @@ $RECYCLE.BIN/
 *.msp
 # Windows shortcuts
 *.lnk
-.allure-results/
+.allure-results/*
 # End of https://www.gitignore.io/api/java,windows,intellij
 FailedTestsScreens/*
+.idea/*ª
