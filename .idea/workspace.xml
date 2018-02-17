@@ -5,6 +5,59 @@
       <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/FailedTestsScreens/searchForItem.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/01509f2c-ab82-4d05-a980-62419f0e6c48-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0245c057-700d-4337-b084-c55e87a456cc-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0570e4a3-7819-43fa-9eaa-3162aeaa931b-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/0594dee4-90ad-4ce6-a3fd-f33900d9bbdd-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1bb61ea0-df5f-43b4-a6a7-3ad7f40f3b11-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2749f413-069b-496b-9a18-a82da3dc9923-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2a4ffb18-5ecc-478e-a1d0-1e15b35fe547-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/2f9af6f6-5585-4aa0-883b-3976a98825fa-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/36568753-0436-4050-804c-afc393e02a16-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/3a138a20-7709-44bb-8a5a-874801e46126-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4066ea77-b2ad-4e3e-9333-a411f0db866f-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/411b7089-56be-4549-a559-4de7ef34271b-attachment" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/449462cd-2481-4112-bba5-529b64a62418-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/44b45e1b-686f-4946-ab07-659762d21a97-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4a31dde5-66a8-49f5-acd7-f404995f4c69-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4b78a8be-cf0f-4f54-9b35-c3de906ee3a9-attachment" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4dce37df-5e9c-4a1d-bf6e-b6c4f1c35ab6-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4f56e392-7b7f-47d4-8d7c-c888aad45d29-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4f6de0ba-7da9-4518-88ca-d6db6f74e578-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/4f8ca04d-e3ff-484a-8721-f3cd9988e1c8-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/50bb1fa2-a4a9-40fb-aa43-8f3f0ddd33c2-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/50c72c3e-cc87-4ef1-8990-3ce863d9add7-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/542b5ff5-61ee-45ac-9af2-d1ee31a9e652-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5a26ef54-2929-4fb1-b1ad-5b88d771b5b6-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/5b3b1448-fcca-4076-b626-f9f89fa83bb7-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/65057461-f364-4b5e-b0fa-0d30f1bcd05f-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/69338ba0-791a-445c-b213-bab565014c02-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6f656f44-fb33-4d81-9b8e-c25b5ac213cb-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/70f77255-3744-4b2f-b421-bebf1cbbdb03-attachment" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7d0c72c4-19fd-4235-9f87-7500a84ce24c-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/8283438f-55f4-443e-b63b-e61e57bb9ad6-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/82bd2479-1d0b-45af-8340-95fae6f950f9-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/85d2aa36-6ad4-4e2b-b389-3ee213f24e33-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/88c80498-211e-4d75-9353-bd168bc15622-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/947cc592-c3ee-42a7-837c-506ea5519e12-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/991897c8-c4a5-4b33-b48e-1d4e46bc6056-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9d0e7ae8-daa3-47e8-b038-f093fd5f9b07-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/9eda49ce-39b4-444d-8d06-f5ee89c0b4de-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a142e206-c877-4d52-a259-a76236fc9f22-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a2bd67d1-4fb1-4ec5-9c05-8997b9904b8a-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a485a63e-34e1-48f3-a7b8-f705c6efe9e3-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ae5ab5ae-fe90-4b76-9a98-c3ac2306f54f-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b84d7273-1270-46e6-af41-3a81ed99d7da-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/b95d2862-9ade-4a78-b4ff-4a39d2461f49-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ba7a5c91-c591-40ae-8f2e-5dedaa3cb8f9-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c0fb2cce-3832-4ac2-b5d7-a739bdfd674f-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/c125d04b-933f-4596-925c-599ef7567491-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e6eaaeb8-12e0-490d-90e0-4faf1bc7d692-container.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/e7d4775d-550c-43ce-89e9-82a173737e72-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f171fbd1-b952-48a4-b459-10e26dc9ea10-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/f48ce6b6-563f-4da0-894f-dde91ce0b439-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fcfce7d9-d0b1-4b5b-8371-d9e45ca2d0f0-result.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/allure-results/fe70d5ee-99c3-4326-af3c-29c3f043da54-result.json" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ss/pages/SearchPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/ss/pages/SearchPage.java" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/conf.xml" afterPath="$PROJECT_DIR$/src/test/resources/conf.xml" />
       <change beforePath="$PROJECT_DIR$/ss.com.iml" afterPath="$PROJECT_DIR$/ss.com.iml" />
@@ -44,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/NewAdPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/conf.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -93,8 +146,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            <state relative-caret-position="135">
+              <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -935,8 +988,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="135">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -1002,7 +1055,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/NewAdPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1018,7 +1071,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/conf.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding />
         </state>
       </provider>
