@@ -42,8 +42,8 @@ public class TestListener implements ITestListener {
         }
     }
 
-    @Attachment(value = "{0}", type = "image/png")
-    public byte[] saveScreenshot(){return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);}
+    //@Attachment(value = "{0}", type = "image/png")
+    //public byte[] saveScreenshot(){return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);}
 
     @Attachment(value = "{0}", type = "image/png")
     public byte[] saveImageAttach(String attachName){
