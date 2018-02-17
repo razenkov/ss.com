@@ -50,7 +50,7 @@ public class SearchPage {
         Select town = new Select(driver.findElement(By.xpath("//*[@id ='s_region_select']")));
         town.selectByValue("riga_f");
 
-        Select period = new Select(driver.findElement(By.xpath("//*[@name ='pr']!!!!!!!!!!")));
+        Select period = new Select(driver.findElement(By.xpath("//*[@name ='pr']")));
         period.selectByValue("7");
 
         wordField.sendKeys(searchData);
