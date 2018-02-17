@@ -27,7 +27,7 @@
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/main/resources/conf.xml</suiteXmlFile>
+                        <suiteXmlFile>src/test/resources/conf.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
                 <dependencies>
