@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa74f3e5-086f-4eb5-9970-21e38e55a2f3" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/conf.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/FailedTestsScreens/searchForItem.png" afterPath="$PROJECT_DIR$/FailedTestsScreens/searchForItem.png" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/conf.xml" afterPath="$PROJECT_DIR$/src/main/resources/conf.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,8 +100,8 @@
       <file leaf-file-name="conf.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/conf.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+            <state relative-caret-position="315">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -318,7 +319,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.com.ss">
+  <component name="RunManager" selected="TestNG./Users/mymac/IdeaProjects/ss.com/src/main/resources/conf.xml">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -431,7 +432,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="SearchTest.addToFavoritesTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchTest.searchForItem" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.ss.*" />
@@ -444,7 +445,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.ss" />
       <option name="MAIN_CLASS_NAME" value="com.ss.SearchTest" />
-      <option name="METHOD_NAME" value="addToFavoritesTest" />
+      <option name="METHOD_NAME" value="searchForItem" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -463,22 +464,17 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="SearchTest.searchForItem" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.ss.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="/Users/mymac/IdeaProjects/ss.com/src/main/resources/conf.xml" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="ss.com" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="com.ss" />
-      <option name="MAIN_CLASS_NAME" value="com.ss.SearchTest" />
-      <option name="METHOD_NAME" value="searchForItem" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/conf.xml" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -563,17 +559,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="TestNG.SearchTest" />
       <item index="1" class="java.lang.String" itemvalue="TestNG.SearchTest.searchForItem" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.SearchTest.addToFavoritesTest" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.com.ss" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.AddAdvertisementTests.addNewAdvertisement" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.com.ss" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.AddAdvertisementTests.addNewAdvertisement" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG./Users/mymac/IdeaProjects/ss.com/src/main/resources/conf.xml" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.com.ss" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.AddAdvertisementTests.addNewAdvertisement" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.SearchTest.searchForItem" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.SearchTest" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.SearchTest.addToFavoritesTest" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG./Users/mymac/IdeaProjects/ss.com/src/main/resources/conf.xml" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.com.ss" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.AddAdvertisementTests.addNewAdvertisement" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.SearchTest.searchForItem" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.SearchTest" />
       </list>
     </recent_temporary>
   </component>
@@ -594,14 +590,11 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchTest_searchForItem - 2018.02.09 at 22h 59m 59s.xml">
-      <configuration name="SearchTest.searchForItem" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SearchTest_searchForItem - 2018.02.09 at 23h 00m 44s.xml">
-      <configuration name="SearchTest.searchForItem" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SearchTest_searchForItem - 2018.02.09 at 23h 01m 19s.xml">
       <configuration name="SearchTest.searchForItem" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mymac_IdeaProjects_ss_com_src_main_resources_conf_xml - 2018.02.17 at 11h 57m 31s.xml">
+      <configuration name="/Users/mymac/IdeaProjects/ss.com/src/main/resources/conf.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="com_ss - 2018.02.09 at 23h 02m 01s.xml">
       <configuration name="com.ss" configurationId="TestNG" />
@@ -624,9 +617,13 @@
     <history-entry file="com_ss - 2018.02.17 at 11h 47m 04s.xml">
       <configuration name="com.ss" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="com_ss - 2018.02.17 at 11h 56m 34s.xml">
+      <configuration name="com.ss" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1916" height="1177" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -636,7 +633,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10832444" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3585952" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="2547" y="941" width="2473" height="473" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3585952" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="2547" y="941" width="2473" height="473" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33548984" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1032,8 +1029,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/conf.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="57" lean-forward="false" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -12,7 +12,6 @@
 		<test name="Windows + FireFox Test">
 			<classes>
 				<!--class name="com.google.EnvTestData" /-->
-				<class name="com.google.*" />
 				<class name="com.ss.SearchTest" />
 				<class name="com.ss.LoginTests" />
 				<class name="com.ss.AddAdvertisementTests" />
