@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aa74f3e5-086f-4eb5-9970-21e38e55a2f3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ss/core/WebDriverTestBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/ss/core/WebDriverTestBase.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/conf.xml" afterPath="$PROJECT_DIR$/src/test/resources/conf.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,18 +39,18 @@
       <file leaf-file-name="NewAdPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/NewAdPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="480">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginTests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/LoginTests.java">
+      <file leaf-file-name="SearchTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+            <state relative-caret-position="150">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -67,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conf.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="conf.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/conf.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <marker date="1518984682000" expanded="true" signature="338:535" ph="..." />
               </folding>
@@ -145,7 +144,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/ss/LoginTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ss/SearchForItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ss/pages/CarSearchPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ss/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ss/pages/NewAdPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ss/AddAdvertisementTests.java" />
@@ -158,6 +156,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/com/ss/core/WebDriverTestBase.java" />
         <option value="$PROJECT_DIR$/src/test/resources/conf.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java" />
       </list>
     </option>
   </component>
@@ -270,6 +269,21 @@
               <item name="ss.com" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ss.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ss.com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ss.com" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ss.com" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ss" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ss.com" type="b2602c69:ProjectViewProjectNode" />
@@ -593,10 +607,10 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_mymac_IdeaProjects_ss_com_src_main_resources_conf_xml - 2018.02.17 at 11h 57m 31s.xml">
-      <configuration name="/Users/mymac/IdeaProjects/ss.com/src/main/resources/conf.xml" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="_Users_mymac_IdeaProjects_ss_com_src_test_resources_conf_xml - 2018.02.17 at 12h 49m 24s.xml">
+      <configuration name="/Users/mymac/IdeaProjects/ss.com/src/test/resources/conf.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mymac_IdeaProjects_ss_com_src_test_resources_conf_xml - 2018.02.18 at 22h 12m 43s.xml">
       <configuration name="/Users/mymac/IdeaProjects/ss.com/src/test/resources/conf.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="com_ss - 2018.02.09 at 23h 02m 01s.xml">
@@ -636,9 +650,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.08074781" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35854766" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="2547" y="941" width="2473" height="473" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35854766" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="2547" y="941" width="2473" height="473" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33509833" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33509833" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13643596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -915,14 +929,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ss.com_properties" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -963,14 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/NewAdPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/SearchPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -1005,11 +1003,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/conf.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="8" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="150">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding>
             <marker date="1518984682000" expanded="true" signature="338:535" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/NewAdPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>

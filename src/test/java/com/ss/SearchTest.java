@@ -5,6 +5,8 @@ import com.ss.pages.CarSearchPage;
 import com.ss.pages.HomePage;
 import com.ss.pages.LoginPage;
 import com.ss.pages.SearchPage;
+import io.qameta.allure.Step;
+import io.qameta.allure.Story;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -12,6 +14,7 @@ import org.testng.annotations.Test;
 
 public class SearchTest extends WebDriverTestBase{
     @Test
+    @Step("!!!HERE IM TRYING TO ADD @STEP -> {0} <- TO REPORT.")
     public void addToFavoritesTest(){
         driver.get("https://www.ss.com");
         driver.manage().window().maximize();
@@ -25,6 +28,7 @@ public class SearchTest extends WebDriverTestBase{
     }
 
     @Test
+    @Story("!!!HERE @STORY ANNOTATION")
     public void searchForItem(){
         driver.get("https://www.ss.com");
         driver.manage().window().maximize();
