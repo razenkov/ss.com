@@ -9,6 +9,8 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
+import org.testng.annotations.Parameters;
+
 import java.util.concurrent.TimeUnit;
 
 @Listeners({com.ss.core.TestListener.class})
@@ -18,6 +20,7 @@ public class WebDriverTestBase {
     protected WebDriverManager manager;
     //private String browser = System.getProperty("browser", "CHROME");
     public String browser = "firefox";
+    @Parameters({"",""})
     @BeforeClass
     protected void setup() {
         switch (browser) {
