@@ -8,6 +8,8 @@
 			</parameters>
 			<classes>
 				<class name="com.ss.SearchTest" />
+				<class name="com.ss.LoginTests" />
+				<class name="com.ss.AddAdvertisementTests" />
 			</classes>
 		</test>
 
@@ -18,6 +20,10 @@
 			</parameters>
 			<classes>
 				<class name="com.ss.SearchTest" />
+				<class name="com.ss.LoginTests" />
+				<class name="com.ss.AddAdvertisementTests" />
+
+
 			</classes>
 		</test>
 

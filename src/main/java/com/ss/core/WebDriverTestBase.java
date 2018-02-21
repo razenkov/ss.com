@@ -85,7 +85,7 @@ public class WebDriverTestBase {
                 break;
         }
     }
-    private DesiredCapabilities setDesiredCapabilities (String platform, String remoteBrowser) throws MalformedURLException{
+    private DesiredCapabilities setDesiredCapabilities (String platform, String remoteBrowser) {
         DesiredCapabilities caps = new DesiredCapabilities();
         if (platform.equalsIgnoreCase(Platform.MAC.name())) {
             caps.setPlatform(Platform.MAC);
