@@ -1,16 +1,18 @@
 package com.ss.core;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
-import org.testng.annotations.Parameters;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.*;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 @Listeners({com.ss.core.TestListener.class})
@@ -20,9 +22,12 @@ public class WebDriverTestBase {
     protected WebDriverManager manager;
     //private String browser = System.getProperty("browser", "CHROME");
     public String browser = "firefox";
-    @Parameters({"",""})
+
+
+
+    @Parameters({"platform", "remoteBrowser"})
     @BeforeClass
-    protected void setup() {
+    protected void setup(@Optional String platform, @Optional String remoteBrowser)  throws MalformedURLException{
         switch (browser) {
             case "firefox": {
                 manager.firefoxdriver().setup();
@@ -44,6 +49,12 @@ public class WebDriverTestBase {
                 options.addArguments("--disable-notifications");
                 break;
             }
+            case "remote":{
+                DesiredCapabilities caps = setDesiredCapabilities(platform, remoteBrowser);
+                driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), caps);
+                break;
+            }
+
         }
         driver.manage().timeouts().pageLoadTimeout(Long.parseLong(
                 PropertiesCache.getProperty("wait.page")), TimeUnit.SECONDS);
@@ -51,6 +62,15 @@ public class WebDriverTestBase {
                 PropertiesCache.getProperty("wait.implicit")), TimeUnit.SECONDS);
         driver.manage().timeouts().setScriptTimeout(Long.parseLong(
                 PropertiesCache.getProperty("wait.script")), TimeUnit.SECONDS);
+    }
+
+    private DesiredCapabilities setDesiredCapabilities(String platform, String remoteBrowser){
+        DesiredCapabilities caps = new DesiredCapabilities();
+        if (platform.equalsIgnoreCase(Platform.MAC.name())) {
+            caps.setPlatform(Platform.MAC);
+            caps.setBrowserName(remoteBrowser);
+        }
+        return caps;
     }
 
     @AfterClass

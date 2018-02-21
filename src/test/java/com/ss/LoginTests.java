@@ -10,8 +10,6 @@ import org.testng.annotations.Test;
 
 public class LoginTests extends WebDriverTestBase{
     @DataProvider(name = "loginCredentials")
-
-
     public Object[][] userCredentials(){
         return new Object[][]{
                 {"email", "password"},
