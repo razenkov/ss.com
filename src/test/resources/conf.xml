@@ -1,7 +1,7 @@
 <suite name="Parallel Tests" verbose="1" thread-count="4" parallel="tests">
 	<tests>
 
-		<!--test name="Mac + firefox Test">
+		<test name="Mac + firefox Test">
 			<parameters>
 				<parameter name="platform" value="MAC" />
 				<parameter name="remoteBrowser" value="firefox"/>
@@ -9,14 +9,14 @@
 			<classes>
 				<class name="com.ss.SearchTest" />
 			</classes>
-		</test-->
-
-		<test name="Mac + firefox Test">
-			<classes>
-				<class name="com.ss.SearchTest" />
-				<class name="com.ss.LoginTests" />
-				<class name="com.ss.AddAdvertisementTests" />
-			</classes>
 		</test>
+
+		<!--<test name="Mac + firefox Test">-->
+			<!--<classes>-->
+				<!--<class name="com.ss.SearchTest" />-->
+				<!--<class name="com.ss.LoginTests" />-->
+				<!--<class name="com.ss.AddAdvertisementTests" />-->
+			<!--</classes>-->
+		<!--</test>-->
 	</tests>
 </suite>
