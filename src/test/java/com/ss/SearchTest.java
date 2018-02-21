@@ -8,7 +8,10 @@ import com.ss.pages.SearchPage;
 import io.qameta.allure.Step;
 import io.qameta.allure.Story;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -28,7 +31,7 @@ public class SearchTest extends WebDriverTestBase{
     }
 
     @Test
-    public void searchForItem(){
+    public void searchForItem() throws InterruptedException {
         driver.get("https://www.ss.com");
         driver.manage().window().maximize();
 
@@ -37,7 +40,13 @@ public class SearchTest extends WebDriverTestBase{
         homePage.getSearchDirectory();
 
         SearchPage searchPage = PageFactory.initElements(driver, SearchPage.class);
+
         searchPage.fillSearchForm(driver);
+
+        Thread.sleep(3000);
+        WebElement headLine = driver.findElement(By.xpath("//*[@id=\"head_line\"]/td[1]"));
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOf(headLine));
 
         Assert.assertTrue(searchPage.isSearchSuccessful());
     }

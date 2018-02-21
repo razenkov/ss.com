@@ -2,6 +2,7 @@ package com.ss.pages;
 
 import com.ss.core.WebDriverTestBase;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -57,12 +58,9 @@ public class SearchPage {
         period.selectByValue("7");
 
         wordField.sendKeys(searchData);
-        wordField.submit();
+        wordField.sendKeys(Keys.ENTER);
 
 
-//        WebDriverWait wait = new WebDriverWait(driver, 10);
-//        wait.until(ExpectedConditions.elementToBeClickable(searchButton));
-//        searchButton.click();
 
 
     }

@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aa74f3e5-086f-4eb5-9970-21e38e55a2f3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ss/core/WebDriverTestBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/ss/core/WebDriverTestBase.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ss/pages/SearchPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/ss/pages/SearchPage.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/conf.xml" afterPath="$PROJECT_DIR$/src/test/resources/conf.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,8 +20,8 @@
       <file leaf-file-name="SearchPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="62" column="10" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="64" selection-end-column="31" />
+            <state relative-caret-position="273">
+              <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -96,8 +94,8 @@
       <file leaf-file-name="SearchTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+            <state relative-caret-position="480">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -106,10 +104,10 @@
       <file leaf-file-name="conf.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/conf.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="150">
+              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="11" selection-end-column="61" />
               <folding>
-                <marker date="1519239171000" expanded="true" signature="762:1001" ph="..." />
+                <marker date="1519241852000" expanded="true" signature="762:1001" ph="..." />
               </folding>
             </state>
           </provider>
@@ -163,10 +161,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/com/ss/LoginTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ss/core/TestListener.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/conf.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ss/pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ss/core/WebDriverTestBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ss/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/conf.xml" />
       </list>
     </option>
   </component>
@@ -617,9 +615,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SearchTest_searchForItem - 2018.02.21 at 20h 55m 02s.xml">
-      <configuration name="SearchTest.searchForItem" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SearchTest_searchForItem - 2018.02.21 at 20h 56m 00s.xml">
       <configuration name="SearchTest.searchForItem" configurationId="TestNG" />
     </history-entry>
@@ -632,16 +627,19 @@
     <history-entry file="SearchTest_searchForItem - 2018.02.21 at 21h 03m 21s.xml">
       <configuration name="SearchTest.searchForItem" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mymac_IdeaProjects_ss_com_src_test_resources_conf_xml - 2018.02.21 at 20h 30m 41s.xml">
+    <history-entry file="_Users_mymac_IdeaProjects_ss_com_src_test_resources_conf_xml - 2018.02.21 at 21h 06m 23s.xml">
       <configuration name="/Users/mymac/IdeaProjects/ss.com/src/test/resources/conf.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mymac_IdeaProjects_ss_com_src_test_resources_conf_xml - 2018.02.21 at 20h 43m 57s.xml">
+    <history-entry file="_Users_mymac_IdeaProjects_ss_com_src_test_resources_conf_xml - 2018.02.21 at 21h 21m 04s.xml">
       <configuration name="/Users/mymac/IdeaProjects/ss.com/src/test/resources/conf.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mymac_IdeaProjects_ss_com_src_test_resources_conf_xml - 2018.02.21 at 20h 51m 53s.xml">
+    <history-entry file="_Users_mymac_IdeaProjects_ss_com_src_test_resources_conf_xml - 2018.02.21 at 21h 26m 18s.xml">
       <configuration name="/Users/mymac/IdeaProjects/ss.com/src/test/resources/conf.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_mymac_IdeaProjects_ss_com_src_test_resources_conf_xml - 2018.02.21 at 20h 54m 29s.xml">
+    <history-entry file="_Users_mymac_IdeaProjects_ss_com_src_test_resources_conf_xml - 2018.02.21 at 21h 35m 19s.xml">
+      <configuration name="/Users/mymac/IdeaProjects/ss.com/src/test/resources/conf.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_mymac_IdeaProjects_ss_com_src_test_resources_conf_xml - 2018.02.21 at 21h 37m 10s.xml">
       <configuration name="/Users/mymac/IdeaProjects/ss.com/src/test/resources/conf.xml" configurationId="TestNG" />
     </history-entry>
     <history-entry file="com_ss - 2018.02.21 at 21h 04m 19s.xml">
@@ -698,7 +696,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="63" />
+      <option name="time" value="65" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1038,22 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/SearchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="62" column="10" lean-forward="false" selection-start-line="62" selection-start-column="10" selection-end-line="64" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/core/WebDriverTestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
@@ -1065,12 +1047,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ss/pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ss/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/conf.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="150">
+          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="11" selection-end-column="61" />
           <folding>
-            <marker date="1519239171000" expanded="true" signature="762:1001" ph="..." />
+            <marker date="1519241852000" expanded="true" signature="762:1001" ph="..." />
           </folding>
         </state>
       </provider>
