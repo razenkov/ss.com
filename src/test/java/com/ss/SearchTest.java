@@ -27,19 +27,19 @@ public class SearchTest extends WebDriverTestBase{
         carSearchPage.fillSearchRequest();
     }
 
-    @Test
-    @Story("!!!HERE @STORY ANNOTATION")
-    public void searchForItem(){
-        driver.get("https://www.ss.com");
-        driver.manage().window().maximize();
-
-        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
-        homePage.changeLanguageToRu();
-        homePage.getSearchDirectory();
-
-        SearchPage searchPage = PageFactory.initElements(driver, SearchPage.class);
-        searchPage.fillSearchForm(driver);
-
-        Assert.assertTrue(searchPage.isSearchSuccessful());
-    }
+//    @Test
+//    @Story("!!!HERE @STORY ANNOTATION")
+//    public void searchForItem(){
+//        driver.get("https://www.ss.com");
+//        driver.manage().window().maximize();
+//
+//        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
+//        homePage.changeLanguageToRu();
+//        homePage.getSearchDirectory();
+//
+//        SearchPage searchPage = PageFactory.initElements(driver, SearchPage.class);
+//        searchPage.fillSearchForm(driver);
+//
+//        Assert.assertTrue(searchPage.isSearchSuccessful());
+//    }
 }

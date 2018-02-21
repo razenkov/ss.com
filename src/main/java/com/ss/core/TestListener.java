@@ -24,22 +24,22 @@ public class TestListener implements ITestListener {
     }
     @Override
     public void onTestFailure(ITestResult iTestResult) {
-        driver = ((WebDriverTestBase) iTestResult.getInstance()).driver;
-        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        File f = new File("/Users/mymac/IdeaProjects/ss.com/FailedTestsScreens");
-        try {
-            FileUtils.cleanDirectory(f);
-            saveImageAttach("FailedTestsScreens/" + iTestResult.getMethod().getMethodName() + ".png");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        try {
-            FileUtils.copyFile(scrFile,
-                    //new File("C:/Users/adm1n/Documents/KitCenter/Screenshots"
-                      new File("FailedTestsScreens/" + iTestResult.getMethod().getMethodName() + ".png"));
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        driver = ((WebDriverTestBase) iTestResult.getInstance()).driver;
+//        File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+//        File f = new File("/Users/mymac/IdeaProjects/ss.com/FailedTestsScreens");
+//        try {
+//            FileUtils.cleanDirectory(f);
+//            saveImageAttach("FailedTestsScreens/" + iTestResult.getMethod().getMethodName() + ".png");
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
+//        try {
+//            FileUtils.copyFile(scrFile,
+//                    //new File("C:/Users/adm1n/Documents/KitCenter/Screenshots"
+//                      new File("FailedTestsScreens/" + iTestResult.getMethod().getMethodName() + ".png"));
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
 
     //@Attachment(value = "{0}", type = "image/png")

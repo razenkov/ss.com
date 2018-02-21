@@ -1,6 +1,16 @@
 <suite name="Parallel Tests" verbose="1" thread-count="4" parallel="tests">
 	<tests>
 
+		<test name="Mac + chrome Test">
+			<parameters>
+				<parameter name="platform" value="MAC" />
+				<parameter name="remoteBrowser" value="chrome"/>
+			</parameters>
+			<classes>
+				<class name="com.ss.SearchTest" />
+			</classes>
+		</test>
+
 		<test name="Mac + firefox Test">
 			<parameters>
 				<parameter name="platform" value="MAC" />
@@ -10,6 +20,8 @@
 				<class name="com.ss.SearchTest" />
 			</classes>
 		</test>
+
+
 
 		<!--<test name="Mac + firefox Test">-->
 			<!--<classes>-->
