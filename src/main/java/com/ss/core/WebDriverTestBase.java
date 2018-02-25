@@ -25,66 +25,66 @@ public class WebDriverTestBase {
 
     protected WebDriver driver;
     protected WebDriverManager manager;
-    private String browser = System.getProperty("browser", "CHROME");
-    //public String browser = "remote";
+    //private String browser = System.getProperty("browser", "CHROME");
+    public String browser = "remote";
     //public String browser = "chrome";
 
 
      @Parameters({"platform", "remoteBrowser"})
      @BeforeClass
-//    protected void setup(@Optional String platform, @Optional String remoteBrowser)  throws MalformedURLException{
-//        switch (browser) {
-//            case "firefox": {
-//                manager.firefoxdriver().setup();
-//                FirefoxOptions options = new FirefoxOptions();
-//                options.addArguments("--disable-notifications");
-//                driver = new FirefoxDriver(options);
-//                break;
-//            }
-//            case "chrome": {
-//                manager.chromedriver().setup();
-//                ChromeOptions options = new ChromeOptions();
-//                options.addArguments("--disable-notifications");
-//                driver = new ChromeDriver(options);
-//                break;
-//            }
-//            case "edge": {
-//                manager.edgedriver().setup();
-//                ChromeOptions options = new ChromeOptions();
-//                options.addArguments("--disable-notifications");
-//                break;
-//            }
-//            case "remote":{
-//                DesiredCapabilities caps = setDesiredCapabilities(platform, remoteBrowser);
-//                driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), caps);
-//                break;
-//            }
-//
-//        }
-//        driver.manage().timeouts().pageLoadTimeout(Long.parseLong(
-//                PropertiesCache.getProperty("wait.page")), TimeUnit.SECONDS);
-//        driver.manage().timeouts().implicitlyWait(Long.parseLong(
-//                PropertiesCache.getProperty("wait.implicit")), TimeUnit.SECONDS);
-//        driver.manage().timeouts().setScriptTimeout(Long.parseLong(
-//                PropertiesCache.getProperty("wait.script")), TimeUnit.SECONDS);
-//    }
-
-    public void setUp(@Optional String platform, @Optional String remoteBrowser) throws MalformedURLException {
+    protected void setup(@Optional String platform, @Optional String remoteBrowser)  throws MalformedURLException{
         switch (browser) {
-            case CHROME:
-                ChromeDriverManager.getInstance().setup();
-                driver = new ChromeDriver();
+            case "firefox": {
+                manager.firefoxdriver().setup();
+                FirefoxOptions options = new FirefoxOptions();
+                options.addArguments("--disable-notifications");
+                driver = new FirefoxDriver(options);
                 break;
-            case FIREFOX:
-                FirefoxDriverManager.getInstance().setup();
-                driver = new FirefoxDriver();
+            }
+            case "chrome": {
+                manager.chromedriver().setup();
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--disable-notifications");
+                driver = new ChromeDriver(options);
                 break;
-            case "remote":
+            }
+            case "edge": {
+                manager.edgedriver().setup();
+                ChromeOptions options = new ChromeOptions();
+                options.addArguments("--disable-notifications");
+                break;
+            }
+            case "remote":{
                 DesiredCapabilities caps = setDesiredCapabilities(platform, remoteBrowser);
                 driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), caps);
                 break;
+            }
+
         }
+        driver.manage().timeouts().pageLoadTimeout(Long.parseLong(
+                PropertiesCache.getProperty("wait.page")), TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Long.parseLong(
+                PropertiesCache.getProperty("wait.implicit")), TimeUnit.SECONDS);
+        driver.manage().timeouts().setScriptTimeout(Long.parseLong(
+                PropertiesCache.getProperty("wait.script")), TimeUnit.SECONDS);
     }
+
+//    public void setUp(@Optional String platform, @Optional String remoteBrowser) throws MalformedURLException {
+//        switch (browser) {
+//            case CHROME:
+//                ChromeDriverManager.getInstance().setup();
+//                driver = new ChromeDriver();
+//                break;
+//            case FIREFOX:
+//                FirefoxDriverManager.getInstance().setup();
+//                driver = new FirefoxDriver();
+//                break;
+//            case "remote":
+//                DesiredCapabilities caps = setDesiredCapabilities(platform, remoteBrowser);
+//                driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), caps);
+//                break;
+//        }
+//    }
     private DesiredCapabilities setDesiredCapabilities (String platform, String remoteBrowser) {
         DesiredCapabilities caps = new DesiredCapabilities();
         if (platform.equalsIgnoreCase(Platform.MAC.name())) {
