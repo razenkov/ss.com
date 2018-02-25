@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Parallel Tests" duration-ms="45141" started-at="2018-02-25T09:15:12Z" finished-at="2018-02-25T09:15:58Z">
+  <suite name="Parallel Tests" duration-ms="55628" started-at="2018-02-25T16:09:27Z" finished-at="2018-02-25T16:10:23Z">
     <groups>
     </groups>
-    <test name="Mac + chrome Test" duration-ms="23568" started-at="2018-02-25T09:15:12Z" finished-at="2018-02-25T09:15:36Z">
-      <class name="com.ss.LoginTests">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@5b408dc3]" name="setUp" is-config="true" duration-ms="893" started-at="2018-02-25T11:15:30Z" finished-at="2018-02-25T11:15:31Z">
+    <test name="Mac + chrome Test" duration-ms="23174" started-at="2018-02-25T16:09:27Z" finished-at="2018-02-25T16:09:50Z">
+      <class name="com.ss.CooperationPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.ss.CooperationPageTest@6821ea29]" name="setup" is-config="true" duration-ms="561" started-at="2018-02-25T18:09:48Z" finished-at="2018-02-25T18:09:48Z">
           <params>
             <param index="0">
               <value>
@@ -22,8 +22,34 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@5b408dc3]" name="loginTest" duration-ms="949" started-at="2018-02-25T11:15:31Z" data-provider="loginCredentials" finished-at="2018-02-25T11:15:32Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getHTMLForMyPage()[pri:0, instance:com.ss.CooperationPageTest@6821ea29]" name="getHTMLForMyPage" duration-ms="1670" started-at="2018-02-25T18:09:48Z" finished-at="2018-02-25T18:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHTMLForMyPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.CooperationPageTest@6821ea29]" name="tearDown" is-config="true" duration-ms="56" started-at="2018-02-25T18:09:50Z" finished-at="2018-02-25T18:09:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ss.CooperationPageTest -->
+      <class name="com.ss.LoginTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@1f2f9244]" name="setup" is-config="true" duration-ms="552" started-at="2018-02-25T18:09:43Z" finished-at="2018-02-25T18:09:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@1f2f9244]" name="loginTest" duration-ms="1014" started-at="2018-02-25T18:09:43Z" data-provider="loginCredentials" finished-at="2018-02-25T18:09:44Z">
           <params>
             <param index="0">
               <value>
@@ -39,7 +65,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@5b408dc3]" name="loginTest" duration-ms="276" started-at="2018-02-25T11:15:32Z" data-provider="loginCredentials" finished-at="2018-02-25T11:15:32Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@1f2f9244]" name="loginTest" duration-ms="315" started-at="2018-02-25T18:09:44Z" data-provider="loginCredentials" finished-at="2018-02-25T18:09:45Z">
           <params>
             <param index="0">
               <value>
@@ -55,7 +81,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@5b408dc3]" name="loginTest" duration-ms="481" started-at="2018-02-25T11:15:32Z" data-provider="loginCredentials" finished-at="2018-02-25T11:15:33Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@1f2f9244]" name="loginTest" duration-ms="531" started-at="2018-02-25T18:09:45Z" data-provider="loginCredentials" finished-at="2018-02-25T18:09:45Z">
           <params>
             <param index="0">
               <value>
@@ -71,13 +97,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.LoginTests@5b408dc3]" name="tearDown" is-config="true" duration-ms="81" started-at="2018-02-25T11:15:33Z" finished-at="2018-02-25T11:15:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.LoginTests@1f2f9244]" name="tearDown" is-config="true" duration-ms="57" started-at="2018-02-25T18:09:45Z" finished-at="2018-02-25T18:09:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ss.LoginTests -->
       <class name="com.ss.SearchTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.ss.SearchTest@36676c1a]" name="setUp" is-config="true" duration-ms="1960" started-at="2018-02-25T11:15:13Z" finished-at="2018-02-25T11:15:14Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.ss.SearchTest@79145d5a]" name="setup" is-config="true" duration-ms="1420" started-at="2018-02-25T18:09:27Z" finished-at="2018-02-25T18:09:28Z">
           <params>
             <param index="0">
               <value>
@@ -92,22 +118,22 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addToFavoritesTest()[pri:0, instance:com.ss.SearchTest@36676c1a]" name="addToFavoritesTest" duration-ms="9279" started-at="2018-02-25T11:15:14Z" finished-at="2018-02-25T11:15:24Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addToFavoritesTest()[pri:0, instance:com.ss.SearchTest@79145d5a]" name="addToFavoritesTest" duration-ms="7722" started-at="2018-02-25T18:09:28Z" finished-at="2018-02-25T18:09:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToFavoritesTest -->
-        <test-method status="PASS" signature="searchForItem()[pri:0, instance:com.ss.SearchTest@36676c1a]" name="searchForItem" duration-ms="6327" started-at="2018-02-25T11:15:24Z" finished-at="2018-02-25T11:15:30Z">
+        <test-method status="PASS" signature="searchForItem()[pri:0, instance:com.ss.SearchTest@79145d5a]" name="searchForItem" duration-ms="6373" started-at="2018-02-25T18:09:36Z" finished-at="2018-02-25T18:09:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForItem -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.SearchTest@36676c1a]" name="tearDown" is-config="true" duration-ms="87" started-at="2018-02-25T11:15:30Z" finished-at="2018-02-25T11:15:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.SearchTest@79145d5a]" name="tearDown" is-config="true" duration-ms="62" started-at="2018-02-25T18:09:43Z" finished-at="2018-02-25T18:09:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ss.SearchTest -->
       <class name="com.ss.AddAdvertisementTests">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.ss.AddAdvertisementTests@4d098f9b]" name="setUp" is-config="true" duration-ms="852" started-at="2018-02-25T11:15:33Z" finished-at="2018-02-25T11:15:34Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.ss.AddAdvertisementTests@4c4d27c8]" name="setup" is-config="true" duration-ms="583" started-at="2018-02-25T18:09:45Z" finished-at="2018-02-25T18:09:46Z">
           <params>
             <param index="0">
               <value>
@@ -122,20 +148,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addNewAdvertisement()[pri:0, instance:com.ss.AddAdvertisementTests@4d098f9b]" name="addNewAdvertisement" duration-ms="2176" started-at="2018-02-25T11:15:34Z" finished-at="2018-02-25T11:15:36Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewAdvertisement()[pri:0, instance:com.ss.AddAdvertisementTests@4c4d27c8]" name="addNewAdvertisement" duration-ms="2059" started-at="2018-02-25T18:09:46Z" finished-at="2018-02-25T18:09:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewAdvertisement -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.AddAdvertisementTests@4d098f9b]" name="tearDown" is-config="true" duration-ms="82" started-at="2018-02-25T11:15:36Z" finished-at="2018-02-25T11:15:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.AddAdvertisementTests@4c4d27c8]" name="tearDown" is-config="true" duration-ms="56" started-at="2018-02-25T18:09:48Z" finished-at="2018-02-25T18:09:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ss.AddAdvertisementTests -->
     </test> <!-- Mac + chrome Test -->
-    <test name="Mac + firefox Test" duration-ms="21551" started-at="2018-02-25T09:15:36Z" finished-at="2018-02-25T09:15:58Z">
-      <class name="com.ss.LoginTests">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@4e517165]" name="setUp" is-config="true" duration-ms="857" started-at="2018-02-25T11:15:51Z" finished-at="2018-02-25T11:15:52Z">
+    <test name="Mac + firefox Test" duration-ms="32430" started-at="2018-02-25T16:09:50Z" finished-at="2018-02-25T16:10:23Z">
+      <class name="com.ss.CooperationPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.ss.CooperationPageTest@5827af16]" name="setup" is-config="true" duration-ms="1745" started-at="2018-02-25T18:10:18Z" finished-at="2018-02-25T18:10:20Z">
           <params>
             <param index="0">
               <value>
@@ -150,8 +176,34 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@4e517165]" name="loginTest" duration-ms="1180" started-at="2018-02-25T11:15:52Z" data-provider="loginCredentials" finished-at="2018-02-25T11:15:53Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getHTMLForMyPage()[pri:0, instance:com.ss.CooperationPageTest@5827af16]" name="getHTMLForMyPage" duration-ms="2513" started-at="2018-02-25T18:10:20Z" finished-at="2018-02-25T18:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHTMLForMyPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.CooperationPageTest@5827af16]" name="tearDown" is-config="true" duration-ms="101" started-at="2018-02-25T18:10:23Z" finished-at="2018-02-25T18:10:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ss.CooperationPageTest -->
+      <class name="com.ss.LoginTests">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@4bff1903]" name="setup" is-config="true" duration-ms="1745" started-at="2018-02-25T18:10:10Z" finished-at="2018-02-25T18:10:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@4bff1903]" name="loginTest" duration-ms="1097" started-at="2018-02-25T18:10:12Z" data-provider="loginCredentials" finished-at="2018-02-25T18:10:13Z">
           <params>
             <param index="0">
               <value>
@@ -167,7 +219,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@4e517165]" name="loginTest" duration-ms="278" started-at="2018-02-25T11:15:53Z" data-provider="loginCredentials" finished-at="2018-02-25T11:15:53Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@4bff1903]" name="loginTest" duration-ms="455" started-at="2018-02-25T18:10:13Z" data-provider="loginCredentials" finished-at="2018-02-25T18:10:13Z">
           <params>
             <param index="0">
               <value>
@@ -183,7 +235,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@4e517165]" name="loginTest" duration-ms="494" started-at="2018-02-25T11:15:53Z" data-provider="loginCredentials" finished-at="2018-02-25T11:15:54Z">
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:com.ss.LoginTests@4bff1903]" name="loginTest" duration-ms="456" started-at="2018-02-25T18:10:13Z" data-provider="loginCredentials" finished-at="2018-02-25T18:10:14Z">
           <params>
             <param index="0">
               <value>
@@ -199,13 +251,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.LoginTests@4e517165]" name="tearDown" is-config="true" duration-ms="77" started-at="2018-02-25T11:15:54Z" finished-at="2018-02-25T11:15:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.LoginTests@4bff1903]" name="tearDown" is-config="true" duration-ms="90" started-at="2018-02-25T18:10:14Z" finished-at="2018-02-25T18:10:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ss.LoginTests -->
       <class name="com.ss.SearchTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.ss.SearchTest@2cb3d0f7]" name="setUp" is-config="true" duration-ms="856" started-at="2018-02-25T11:15:36Z" finished-at="2018-02-25T11:15:37Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.ss.SearchTest@207ea13]" name="setup" is-config="true" duration-ms="1752" started-at="2018-02-25T18:09:50Z" finished-at="2018-02-25T18:09:52Z">
           <params>
             <param index="0">
               <value>
@@ -220,22 +272,22 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addToFavoritesTest()[pri:0, instance:com.ss.SearchTest@2cb3d0f7]" name="addToFavoritesTest" duration-ms="8232" started-at="2018-02-25T11:15:37Z" finished-at="2018-02-25T11:15:45Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addToFavoritesTest()[pri:0, instance:com.ss.SearchTest@207ea13]" name="addToFavoritesTest" duration-ms="7714" started-at="2018-02-25T18:09:52Z" finished-at="2018-02-25T18:10:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToFavoritesTest -->
-        <test-method status="PASS" signature="searchForItem()[pri:0, instance:com.ss.SearchTest@2cb3d0f7]" name="searchForItem" duration-ms="5776" started-at="2018-02-25T11:15:45Z" finished-at="2018-02-25T11:15:51Z">
+        <test-method status="PASS" signature="searchForItem()[pri:0, instance:com.ss.SearchTest@207ea13]" name="searchForItem" duration-ms="9984" started-at="2018-02-25T18:10:00Z" finished-at="2018-02-25T18:10:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchForItem -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.SearchTest@2cb3d0f7]" name="tearDown" is-config="true" duration-ms="79" started-at="2018-02-25T11:15:51Z" finished-at="2018-02-25T11:15:51Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.SearchTest@207ea13]" name="tearDown" is-config="true" duration-ms="123" started-at="2018-02-25T18:10:10Z" finished-at="2018-02-25T18:10:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ss.SearchTest -->
       <class name="com.ss.AddAdvertisementTests">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.ss.AddAdvertisementTests@44e3760b]" name="setUp" is-config="true" duration-ms="866" started-at="2018-02-25T11:15:54Z" finished-at="2018-02-25T11:15:55Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.ss.AddAdvertisementTests@62dae540]" name="setup" is-config="true" duration-ms="1740" started-at="2018-02-25T18:10:14Z" finished-at="2018-02-25T18:10:15Z">
           <params>
             <param index="0">
               <value>
@@ -250,12 +302,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addNewAdvertisement()[pri:0, instance:com.ss.AddAdvertisementTests@44e3760b]" name="addNewAdvertisement" duration-ms="2768" started-at="2018-02-25T11:15:55Z" finished-at="2018-02-25T11:15:58Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewAdvertisement()[pri:0, instance:com.ss.AddAdvertisementTests@62dae540]" name="addNewAdvertisement" duration-ms="2809" started-at="2018-02-25T18:10:15Z" finished-at="2018-02-25T18:10:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addNewAdvertisement -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.AddAdvertisementTests@44e3760b]" name="tearDown" is-config="true" duration-ms="80" started-at="2018-02-25T11:15:58Z" finished-at="2018-02-25T11:15:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ss.AddAdvertisementTests@62dae540]" name="tearDown" is-config="true" duration-ms="94" started-at="2018-02-25T18:10:18Z" finished-at="2018-02-25T18:10:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
