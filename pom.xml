@@ -42,6 +42,7 @@
     </build>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <aspectj.version>1.8.13</aspectj.version>
         <maven.surefire.plugin>2.20.1</maven.surefire.plugin>
         <selenium.version>3.8.1</selenium.version>
