@@ -19,6 +19,12 @@ public class HomePage {
     @FindBy(how = How.XPATH, using = "//*[@href='/ru/new/']")
     WebElement newAdsLink;
 
+    @FindBy(how = How.CSS, using = "//*[@id=\"page_footer\"]/a[4]")
+    WebElement cooperationLink;
+
+//    @FindBy(how = How.XPATH, using = "//*[@id='page_footer']")
+//    public WebElement footer;
+
     public void changeLanguageToRu(){
         if (languageButton.getAttribute("title").equals("По-русски")){
             languageButton.click();
@@ -29,6 +35,9 @@ public class HomePage {
         if (languageButton.getAttribute("title").equals("Latviski")){
             languageButton.click();
         }
+    }
+    public void getCooperationDirectory() {
+        cooperationLink.click();
     }
 
     public void getCarDirectory(){

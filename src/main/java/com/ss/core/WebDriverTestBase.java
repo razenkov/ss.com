@@ -1,7 +1,5 @@
 package com.ss.core;
 
-import io.github.bonigarcia.wdm.ChromeDriverManager;
-import io.github.bonigarcia.wdm.FirefoxDriverManager;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
@@ -17,16 +15,14 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-import static org.openqa.selenium.remote.BrowserType.CHROME;
-import static org.openqa.selenium.remote.BrowserType.FIREFOX;
 
 @Listeners({com.ss.core.TestListener.class})
 public class WebDriverTestBase {
 
     protected WebDriver driver;
     protected WebDriverManager manager;
-    //private String browser = System.getProperty("browser", "CHROME");
-    public String browser = "remote";
+    private String browser = System.getProperty("browser", "remote");
+    //public String browser = "remote";
     //public String browser = "chrome";
 
 

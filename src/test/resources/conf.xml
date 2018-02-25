@@ -10,6 +10,7 @@
 				<class name="com.ss.SearchTest" />
 				<class name="com.ss.LoginTests" />
 				<class name="com.ss.AddAdvertisementTests" />
+				<class name="com.ss.CooperationPageTest" />
 			</classes>
 		</test>
 
@@ -22,8 +23,7 @@
 				<class name="com.ss.SearchTest" />
 				<class name="com.ss.LoginTests" />
 				<class name="com.ss.AddAdvertisementTests" />
-
-
+				<class name="com.ss.CooperationPageTest" />
 			</classes>
 		</test>
 

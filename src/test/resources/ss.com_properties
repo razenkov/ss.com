@@ -20,3 +20,11 @@ color=6317
 carBrand=/ru/transport/cars/subaru/filter/
 model=/ru/transport/cars/subaru/impreza/filter/
 
+#HTML result
+HTMLResult=<script type="text/javascript" src="https://i.ss.com/w_inc/_ss_frame.js"></script>
+           <script type="text/javascript">
+           var _ss_main_url = "https://www.ss.com/work/i-search-for-work/automechanic/";
+           var _ss_frame_width = "100%";
+           var _ss_color_1 = "pink";
+           _ss_show_messages();
+           </script>

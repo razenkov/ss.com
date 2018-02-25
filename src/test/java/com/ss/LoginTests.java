@@ -18,7 +18,6 @@ public class LoginTests extends WebDriverTestBase{
         };
     }
     @Test(dataProvider = "loginCredentials")
-    @Step("!!!HERE IM TRYING TO ADD @STEP -> {email} <- TO REPORT.")
     public void loginTest(String email, String pass){
         driver.get("https://www.ss.com/ru/login/");
         LoginPage loginPage = PageFactory.initElements(driver, LoginPage.class);
