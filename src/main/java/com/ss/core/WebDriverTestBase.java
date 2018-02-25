@@ -26,8 +26,8 @@ public class WebDriverTestBase {
     protected WebDriver driver;
     protected WebDriverManager manager;
     //private String browser = System.getProperty("browser", "CHROME");
-    public String browser = "remote";
-    //public String browser = "chrome";
+    //public String browser = "remote";
+    public String browser = "chrome";
 
 
      @Parameters({"platform", "remoteBrowser"})

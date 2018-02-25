@@ -14,7 +14,7 @@ public class NewAdPage {
     @FindBy(how = How.XPATH, using = "//*[@class='b new_ad_select']")
     WebElement continueBtn;
 
-    @FindBy(how = How.XPATH, using = "//*[@id='page_main_full']/center[1]")
+    @FindBy(how = How.XPATH, using = "//*[@href='https://www.ss.com/ru/registration/']")
     WebElement infomessage;
 
 
@@ -37,6 +37,6 @@ public class NewAdPage {
     }
 
     public boolean isinfoMessage(){
-        return infomessage.getText().contains("Публикация объявлений разрешена только регистрированным пользователям.");
+        return infomessage.isDisplayed(); //infomessage.getText().contains("Укажите данные для входа, либо ");
     }
 }
