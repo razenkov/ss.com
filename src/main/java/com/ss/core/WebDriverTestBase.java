@@ -25,9 +25,9 @@ public class WebDriverTestBase {
 
     protected WebDriver driver;
     protected WebDriverManager manager;
-    //private String browser = System.getProperty("browser", "CHROME");
-    public String browser = "remote";
-
+    private String browser = System.getProperty("browser", "CHROME");
+    //public String browser = "remote";
+    //public String browser = "chrome";
 
 
      @Parameters({"platform", "remoteBrowser"})
@@ -91,6 +91,9 @@ public class WebDriverTestBase {
             caps.setPlatform(Platform.MAC);
             caps.setBrowserName(remoteBrowser);
         }
+//        DesiredCapabilities caps = DesiredCapabilities.chrome();
+//        caps.setCapability("platform", "macOS 10.13");
+//        caps.setCapability("version", "64.0");
         return caps;
     }
 

@@ -17,7 +17,6 @@ import org.testng.annotations.Test;
 
 public class SearchTest extends WebDriverTestBase{
     @Test
-    @Step("!!!HERE IM TRYING TO ADD @STEP -> {0} <- TO REPORT.")
     public void addToFavoritesTest(){
         driver.get("https://www.ss.com");
         driver.manage().window().maximize();
