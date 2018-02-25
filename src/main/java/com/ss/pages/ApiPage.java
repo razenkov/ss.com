@@ -1,7 +1,5 @@
 package com.ss.pages;
 
-import com.ss.core.PropertiesCache;
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;

@@ -12,7 +12,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <!--version>${maven-compiler-plagin-version}</version-->
+                <version>${maven-compiler-plagin-version}</version
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
@@ -43,7 +43,7 @@
     </build>
 
     <properties>
-        <!--maven-compiler-plagin-version>3.7.0</maven-compiler-plagin-version-->
+        <maven-compiler-plagin-version>3.7.0</maven-compiler-plagin-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <aspectj.version>1.8.13</aspectj.version>
         <maven.surefire.plugin>2.20.1</maven.surefire.plugin>
