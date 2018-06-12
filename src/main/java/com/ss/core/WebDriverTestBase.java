@@ -21,7 +21,7 @@ public class WebDriverTestBase {
 
     protected WebDriver driver;
     protected WebDriverManager manager;
-    private String browser = System.getProperty("browser", "remote");
+    private String browser = System.getProperty("browser", "chrome");
     //public String browser = "remote";
     //public String browser = "chrome";
 
@@ -57,6 +57,7 @@ public class WebDriverTestBase {
             }
 
         }
+        driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Long.parseLong(
                 PropertiesCache.getProperty("wait.page")), TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(Long.parseLong(
@@ -95,6 +96,6 @@ public class WebDriverTestBase {
 
     @AfterClass
     protected void tearDown() {
-        driver.quit();
+        //driver.quit();
     }
 }

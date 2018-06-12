@@ -1,8 +1,14 @@
+/Users/mymac/IdeaProjects/ss.com/src/main/java/bdd/com/ss/ServiceHooks.java
+/Users/mymac/IdeaProjects/ss.com/src/main/java/bdd/com/ss/RunFeature2.java
 /Users/mymac/IdeaProjects/ss.com/src/main/java/com/ss/core/TestListener.java
+/Users/mymac/IdeaProjects/ss.com/src/main/java/com/ss/pages/CarSearchPage.java
+/Users/mymac/IdeaProjects/ss.com/src/main/java/bdd/com/ss/steps/LoginSteps.java
+/Users/mymac/IdeaProjects/ss.com/src/main/java/com/ss/pages/HomePage.java
 /Users/mymac/IdeaProjects/ss.com/src/main/java/com/ss/pages/SearchPage.java
+/Users/mymac/IdeaProjects/ss.com/src/main/java/bdd/com/ss/pages/LoginPageCucumber.java
 /Users/mymac/IdeaProjects/ss.com/src/main/java/com/ss/pages/LoginPage.java
 /Users/mymac/IdeaProjects/ss.com/src/main/java/com/ss/core/PropertiesCache.java
+/Users/mymac/IdeaProjects/ss.com/src/main/java/com/ss/pages/ApiPage.java
+/Users/mymac/IdeaProjects/ss.com/src/main/java/bdd/com/ss/RunFeatures.java
 /Users/mymac/IdeaProjects/ss.com/src/main/java/com/ss/core/WebDriverTestBase.java
 /Users/mymac/IdeaProjects/ss.com/src/main/java/com/ss/pages/NewAdPage.java
-/Users/mymac/IdeaProjects/ss.com/src/main/java/com/ss/pages/CarSearchPage.java
-/Users/mymac/IdeaProjects/ss.com/src/main/java/com/ss/pages/HomePage.java

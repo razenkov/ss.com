@@ -1,8 +1,14 @@
 com/ss/core/PropertiesCache.class
 com/ss/pages/LoginPage.class
+bdd/com/ss/RunFeature2.class
+com/ss/pages/CarSearchPage.class
+bdd/com/ss/steps/LoginSteps.class
+com/ss/pages/HomePage.class
+com/ss/pages/SearchPage.class
+bdd/com/ss/pages/LoginPageCucumber.class
 com/ss/core/TestListener.class
 com/ss/core/WebDriverTestBase.class
 com/ss/pages/NewAdPage.class
-com/ss/pages/CarSearchPage.class
-com/ss/pages/HomePage.class
-com/ss/pages/SearchPage.class
+bdd/com/ss/RunFeatures.class
+bdd/com/ss/ServiceHooks.class
+com/ss/pages/ApiPage.class
